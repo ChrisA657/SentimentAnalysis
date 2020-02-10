@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="S20-PA01-SentimentAnalysis"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/c/Users/Chris/CLionProjects/SentimentAnalysis/cmake-build-wsl_profile"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Chris/CLionProjects/SentimentAnalysis/cmake-build-wsl_profile/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Chris/CLionProjects/SentimentAnalysis/cmake-build-wsl_profile/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Chris/CLionProjects/SentimentAnalysis/cmake-build-wsl_profile/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Chris/CLionProjects/SentimentAnalysis/cmake-build-wsl_profile/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/c/Users/Chris/CLionProjects/SentimentAnalysis/cmake-build-wsl_profile"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Chris/CLionProjects/SentimentAnalysis/cmake-build-wsl_profile/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Chris/CLionProjects/SentimentAnalysis/cmake-build-wsl_profile/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Chris/CLionProjects/SentimentAnalysis/cmake-build-wsl_profile/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Chris/CLionProjects/SentimentAnalysis/cmake-build-wsl_profile/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SentimentAnalyzer">
+				<Option output="/mnt/c/Users/Chris/CLionProjects/SentimentAnalysis/cmake-build-wsl_profile/SentimentAnalyzer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/Chris/CLionProjects/SentimentAnalysis/cmake-build-wsl_profile"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Chris/CLionProjects/SentimentAnalysis/cmake-build-wsl_profile/Makefile&quot;  VERBOSE=1 SentimentAnalyzer"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Chris/CLionProjects/SentimentAnalysis/cmake-build-wsl_profile/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Chris/CLionProjects/SentimentAnalysis/cmake-build-wsl_profile/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Chris/CLionProjects/SentimentAnalysis/cmake-build-wsl_profile/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SentimentAnalyzer/fast">
+				<Option output="/mnt/c/Users/Chris/CLionProjects/SentimentAnalysis/cmake-build-wsl_profile/SentimentAnalyzer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/Chris/CLionProjects/SentimentAnalysis/cmake-build-wsl_profile"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Chris/CLionProjects/SentimentAnalysis/cmake-build-wsl_profile/Makefile&quot;  VERBOSE=1 SentimentAnalyzer/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Chris/CLionProjects/SentimentAnalysis/cmake-build-wsl_profile/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Chris/CLionProjects/SentimentAnalysis/cmake-build-wsl_profile/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Chris/CLionProjects/SentimentAnalysis/cmake-build-wsl_profile/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/c/Users/Chris/CLionProjects/SentimentAnalysis/cmake-build-wsl_profile"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Chris/CLionProjects/SentimentAnalysis/cmake-build-wsl_profile/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Chris/CLionProjects/SentimentAnalysis/cmake-build-wsl_profile/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Chris/CLionProjects/SentimentAnalysis/cmake-build-wsl_profile/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Chris/CLionProjects/SentimentAnalysis/cmake-build-wsl_profile/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/c/Users/Chris/CLionProjects/SentimentAnalysis/Analyzer.cpp">
+			<Option target="SentimentAnalyzer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Chris/CLionProjects/SentimentAnalysis/Analyzer.h">
+			<Option target="SentimentAnalyzer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Chris/CLionProjects/SentimentAnalysis/DSString.cpp">
+			<Option target="SentimentAnalyzer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Chris/CLionProjects/SentimentAnalysis/DSString.h">
+			<Option target="SentimentAnalyzer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Chris/CLionProjects/SentimentAnalysis/Tweet.cpp">
+			<Option target="SentimentAnalyzer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Chris/CLionProjects/SentimentAnalysis/Tweet.h">
+			<Option target="SentimentAnalyzer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Chris/CLionProjects/SentimentAnalysis/catch.hpp">
+			<Option target="SentimentAnalyzer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Chris/CLionProjects/SentimentAnalysis/main.cpp">
+			<Option target="SentimentAnalyzer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Chris/CLionProjects/SentimentAnalysis/sentimentalWord.cpp">
+			<Option target="SentimentAnalyzer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Chris/CLionProjects/SentimentAnalysis/sentimentalWord.h">
+			<Option target="SentimentAnalyzer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Chris/CLionProjects/SentimentAnalysis/test.cpp">
+			<Option target="SentimentAnalyzer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Chris/CLionProjects/SentimentAnalysis/wordDatabase.cpp">
+			<Option target="SentimentAnalyzer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Chris/CLionProjects/SentimentAnalysis/wordDatabase.h">
+			<Option target="SentimentAnalyzer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Chris/CLionProjects/SentimentAnalysis/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Chris/CLionProjects/SentimentAnalysis/dev-test-data.csv">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Chris/CLionProjects/SentimentAnalysis/dev-test-target.csv">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Chris/CLionProjects/SentimentAnalysis/dev-train-data-sm.csv">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Chris/CLionProjects/SentimentAnalysis/dev-train-target-sm.csv">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
